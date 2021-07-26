@@ -1,2 +1,0 @@
-(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[645],{6235:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return a}});var r=n(7294),u=n(3534);function a(){return r.createElement(u.ZP,{projectId:"5CT5NEKBQfSS885nch56xj",component:"Products2"})}}}]);
-//# sourceMappingURL=component---cache-plasmic-components-pages-products-2-tsx-ff2bba1bc5da565700d7.js.map
