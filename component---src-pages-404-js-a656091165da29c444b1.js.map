@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://gatsby-starter-default/./src/pages/404.js"],"names":[],"mappings":"4IAGA,UAHiB,WACf,MAAO","file":"component---src-pages-404-js-a656091165da29c444b1.js","sourcesContent":["const NotFound = () => {\n  return \"Not Found\";\n};\nexport default NotFound;"],"sourceRoot":""}
