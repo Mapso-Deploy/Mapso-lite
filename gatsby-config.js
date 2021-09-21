@@ -8,9 +8,17 @@ module.exports = {
   plugins: [
 
     {
-      resolve: "@plasmicapp/loader/gatsby",
+      resolve: "@plasmicapp/loader-gatsby",
       options: {
-        projects: ["5CT5NEKBQfSS885nch56xj"], // An array of project ids.
+        projects: [
+          {
+            id: "5CT5NEKBQfSS885nch56xj",  // ID of a project you are using
+            token: "pfTvofOLTKTSx9w65wzbHL9kUpQ60BbQ4pxtZww9dlIVaq1IVia4S4XoIQXNjgwHH5Z0USpPSZeBNunDMJw"  // API token for that project
+          },
+        ],
+        // Fetches the latest revisions, whether or not they were unpublished!
+        // Disable for production to ensure you render only published changes.
+        preview: true
       },
     },
     `gatsby-plugin-react-helmet`,
